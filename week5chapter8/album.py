@@ -13,13 +13,13 @@ def make_album(artist, title, numSongs=''):
         album['Number of Songs'] = numSongs
 
     return album
+#commenting this out for the import assignment
+# album = make_album("Pearl Jam", "Ten")
 
-album = make_album("Pearl Jam", "Ten")
+# print(album)
 
-print(album)
+# album = make_album("guns n roses", "use your illusion")
+# print(album)
 
-album = make_album("guns n roses", "use your illusion")
-print(album)
-
-album = make_album("metallica", "black album", "7")
-print(album)
+# album = make_album("metallica", "black album", "7")
+# print(album)
